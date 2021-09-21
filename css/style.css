@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  text-align: right;
+}
+
+header nav li {
+  display: inline-block;
+  background-color: white;
+  margin: 0 10px;
+  border: 1px solid black; /*da togliere*/
+  border-radius: 50%;
+}
+
+header nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  padding: 10px 12px;
+}
+
